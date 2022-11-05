@@ -24,8 +24,8 @@ $firstArr = [
 ],  
 ];
 //получить все вторые элементы вложенных массивов
-foreach ($firstArr	as $value) { 
-	if (is_array($value)) { 
-		var_dump(array_slice($value, 1,1));
+foreach ($firstArr as $value) {
+	if (is_array($value)) {
+	var_dump(array_slice($value, 1,1));
 	}
 }
